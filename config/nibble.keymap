@@ -38,7 +38,7 @@
 / {
 	/* Macros */
 	macros {
-        layer_toggle_rgb_mo1 : layer_toggle_rgb_mo1 {
+        layer_toggle_rgb_mo1: layer_toggle_rgb_mo1 {
             label = "layer_toggle_rgb_mo1";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
