@@ -46,10 +46,10 @@
 			tap-ms = <0>;
             bindings
                 = <&macro_press &mo 1>
-    			, <&macro_tap &rgb_ug RGB_COLOR_HSB(243, 50, 100)>
+    			, <&macro_tap &rgb_ug RGB_COLOR_HSB(243, 60, 100)>
     			, <&macro_pause_for_release>
     			, <&macro_release &mo 1>
-    			, <&macro_tap &rgb_ug RGB_COLOR_HSB(300, 40, 100)>;
+    			, <&macro_tap &rgb_ug RGB_COLOR_HSB(300, 60, 100)>;
         };
 
 		    layer_toggle_rgb_tog1: layer_toggle_rgb_tog1 {
@@ -60,10 +60,10 @@
 			tap-ms = <0>;
             bindings
                 = <&macro_press &tog 1>
-    			, <&macro_tap &rgb_ug RGB_COLOR_HSB(243, 50, 100)>
+    			, <&macro_tap &rgb_ug RGB_COLOR_HSB(243, 60, 100)>
     			, <&macro_pause_for_release>
-    			, <&macro_release &tog 1>
-    			, <&macro_tap &rgb_ug RGB_COLOR_HSB(300, 40, 100)>;
+    			, <&macro_press &tog 1>
+    			, <&macro_tap &rgb_ug RGB_COLOR_HSB(300, 60, 100)>;
         };
     };
 
